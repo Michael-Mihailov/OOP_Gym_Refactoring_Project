@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=MemberService
+comment1.params=registry\ idGenerator
+comment1.target=MemberService(IdentifiableRegistry,\ IdGenerator)
+comment2.params=name\ membershipType
+comment2.target=void\ addMember(java.lang.String,\ MembershipType)
+comment3.params=
+comment3.target=java.lang.String\ receiptBasic()
+comment4.params=
+comment4.target=java.lang.String\ receiptDetailed()
+comment5.params=memberId
+comment5.target=Member\ findMemberById(int)
+comment6.params=memberId
+comment6.target=DeactivateMemberResult\ deactivateMember(int)
+numComments=7

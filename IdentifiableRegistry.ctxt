@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=IdentifiableRegistry
+comment1.params=
+comment1.target=IdentifiableRegistry()
+comment2.params=entry
+comment2.target=void\ putEntry(Identifiable)
+comment3.params=id
+comment3.target=Identifiable\ getEntry(int)
+comment4.params=
+comment4.target=int\ size()
+comment5.params=
+comment5.target=java.util.Collection\ getEntries()
+numComments=6

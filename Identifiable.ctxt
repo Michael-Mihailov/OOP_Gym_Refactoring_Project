@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Identifiable
+comment1.params=
+comment1.target=int\ getId()
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment3.params=id
+comment3.target=boolean\ matches(int)
+comment4.params=name
+comment4.target=boolean\ matches(java.lang.String)
+numComments=5
