@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=DifficultyType
+comment1.params=name
+comment1.target=DifficultyType(java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ getDisplayName()
+numComments=3

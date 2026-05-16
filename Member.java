@@ -4,9 +4,10 @@ public class Member implements Identifiable
 {
     private int id;
     private String name;
+    
     private MembershipType membershipType;
     private boolean active;
-    private double balance;
+    private double tab; // how much the member owes (I'm not sure why it is named balance in the original code)
 
     public Member(int id, String name, MembershipType membershipType)
     {
@@ -15,7 +16,16 @@ public class Member implements Identifiable
         this.membershipType = membershipType;
         
         this.active = true;
-        this.balance = 0.0;
+        this.tab = 0.0;
+    }
+    
+    public void applyCharge(double amount)
+    {
+        tab += amount;
+    }
+    public void applyPayment(double amount)
+    {
+        tab -= amount;
     }
     
     public boolean isActive()
@@ -29,6 +39,15 @@ public class Member implements Identifiable
     public void Deactivate()
     {
         active = false;
+    }
+    
+    public MembershipType getMembershipType()
+    {
+        return membershipType;
+    }
+    public double getTab()
+    {
+        return tab;
     }
     
     @Override
@@ -56,8 +75,8 @@ public class Member implements Identifiable
     @Override
     public String toString()
     {
-        String type = membershipType.name();
+        String type = membershipType.getDisplayName();
         String status = active ? "Active" : "Inactive";
-        return String.format("[%d] %s (%s, %s) Balance: $%.2f%n", id, name, type, status, balance);
+        return String.format("[%d] %s (%s, %s) Balance: $%.2f%n", id, name, type, status, tab);
     }
 }

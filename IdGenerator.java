@@ -1,6 +1,6 @@
 public class IdGenerator
 {
-    int nextId = 1;
+    private int nextId = 1;
 
     public int next()
     {

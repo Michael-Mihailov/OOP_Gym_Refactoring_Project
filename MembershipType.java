@@ -1,5 +1,5 @@
 
-public enum MembershipType
+public enum MembershipType implements NameableEnum
 {
     STUDENT("student", 0.5),
     FACULTY("faculty", 0.75),
@@ -14,7 +14,8 @@ public enum MembershipType
         this.feeMultiplyer = feeMultiplyer;
     }
     
-    public String getName()
+    @Override
+    public String getDisplayName()
     {
         return name;
     }

@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=FitnessClass
+comment1.params=id\ name\ difficultyType\ capacity\ enrollmentRegistry
+comment1.target=FitnessClass(int,\ java.lang.String,\ DifficultyType,\ int,\ IdentifiableRegistry)
+comment10.params=id
+comment10.target=boolean\ matches(int)
+comment11.params=name
+comment11.target=boolean\ matches(java.lang.String)
+comment12.params=
+comment12.target=java.lang.String\ toString()
+comment2.params=member
+comment2.target=AddMemberResult\ addMember(Member)
+comment3.params=memberId
+comment3.target=boolean\ containsMemberId(int)
+comment4.params=
+comment4.target=boolean\ isFullCapacity()
+comment5.params=
+comment5.target=DifficultyType\ getDifficultyType()
+comment6.params=
+comment6.target=int\ getCapacity()
+comment7.params=
+comment7.target=java.util.Collection\ getEnrollmentEntries()
+comment8.params=
+comment8.target=int\ getId()
+comment9.params=
+comment9.target=java.lang.String\ getName()
+numComments=13
