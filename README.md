@@ -1,5 +1,17 @@
 # Gym Refactoring Project (Java OOP)
 
+## How to Run
+
+To run the program, execute the `main` method located in the `GymConsole` class.
+
+- Open the project in your preferred Java IDE
+- Locate `GymConsole.java`
+- Run the static `main` function inside `GymConsole`
+
+This will start the console-based application and allow interaction through the command-line interface.
+
+---
+
 ## Overview
 
 This project is a refactored version of a gym management system built in Java for a final exam project. The primary goal was to improve structure, maintainability, and modularity while preserving the original user experience exactly.
